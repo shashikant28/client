@@ -8,9 +8,9 @@
   
   .team-member {
     width: 300px;
-    padding: 20px;
+    padding: 25px;
     border: 1px solid #ccc;
-    border-radius: 5px;
+    border-radius: 10px;
     text-align: center;
   }
   
@@ -22,7 +22,7 @@
     width: 200px;
     height: auto;
     border-radius: 50%;
-    margin-bottom: 10px;
+    margin-bottom: 20%;
   }
   
   .teamPage_title{
