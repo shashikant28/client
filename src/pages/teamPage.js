@@ -4,6 +4,7 @@ import TeamMember from '../components/TeamMember';
 import vedanthImage from '../assets/vedanth.jpg';
 import shashikantImage from '../assets/shashikant.jpg';
 import vishalImage from '../assets/vishal.jpg';
+import noProfileImg from '../assets/NoProfilePic.png';
 import '../pages/teamPageStyle.css';
 
 const TeamPage = () => {
@@ -14,6 +15,7 @@ const TeamPage = () => {
         <TeamMember name="Vedanth Ramji" role="Founder" imageUrl={vedanthImage} />
         <TeamMember name="Shashikant" role="Intern" imageUrl={shashikantImage} />
         <TeamMember name="Vishal" role="Intern" imageUrl={vishalImage} />
+        <TeamMember name="Mahaveer" role="Intern" imageUrl={noProfileImg}/>
       </div>
     </div>
     
